@@ -53,7 +53,7 @@ async function readMatchesFromDB(matchId, chatId, item) {
         return;
       }
       if (rows.length > 0) {
-        bot.sendMessage(chatId, `noAnswer`);
+        // bot.sendMessage(chatId, `noAnswer`);
       } else {
         bot.sendMessage(
           chatId,
@@ -75,7 +75,7 @@ async function SendMessage(html, team, chatId) {
       readMatchesFromDB(items[i].matchId, chatId, items[i]);
     }
   } else {
-    bot.sendMessage(chatId, `noAnswer`);
+    // bot.sendMessage(chatId, `noAnswer`);
   }
 }
 
