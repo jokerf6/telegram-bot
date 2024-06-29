@@ -1,0 +1,21 @@
+const data = [
+  [{ text: "الأهلي", callback_data: "Ahly" }],
+  [{ text: "الزمالك", callback_data: "Zamalek" }],
+  [{ text: "بيراميدز", callback_data: "Pyramids" }],
+  [{ text: "الإسماعيلي", callback_data: "ISMAILY" }],
+  [{ text: "المصري", callback_data: "Al-Masry" }],
+  [{ text: "الاتحاد السكندرى", callback_data: "Alithad" }],
+  [{ text: "بلدية المحلة", callback_data: "Baladiyat" }],
+  [{ text: "سيراميكا كليوباترا", callback_data: "Ceramica" }],
+  [{ text: "سموحة", callback_data: "SMC" }],
+  [{ text: "إنبي", callback_data: "Enppi" }],
+  [{ text: "مودرن فيوتشر", callback_data: "MOD" }],
+  [{ text: "طلائع الجيش", callback_data: "TAG" }],
+  [{ text: "فاركو", callback_data: "FAR" }],
+  [{ text: "المقاولون العرب", callback_data: "MOQ" }],
+  [{ text: "الداخلية", callback_data: "Dakhleya" }],
+  [{ text: "الجونة", callback_data: "GON" }],
+  [{ text: "البنك الاهلى", callback_data: "BAN" }],
+  [{ text: "زد", callback_data: "ZED" }],
+];
+module.exports = data;
